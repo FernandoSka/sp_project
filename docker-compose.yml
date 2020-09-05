@@ -1,0 +1,12 @@
+version: '3'
+services:
+  web:
+    restart: always
+    build: .
+    command: python3 manage.py runserver 0.0.0.0:8090
+    volumes:
+      - ./sp_test:/code
+      - ./html:/var/www/website/html
+      - ./sp_test/templates:/var/www/website/sp_test/templates
+    ports:
+      - "8090:8090"
