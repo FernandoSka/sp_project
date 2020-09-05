@@ -12,7 +12,7 @@ response:
 ```
 - Post:
 ```
-curl -XGET 'http://127.0.0.1:8000/api/sps/helloworld/v1'
+curl -XPOST 'http://127.0.0.1:8000/api/sps/helloworld/v1'
 ```
 response:
 ```
@@ -22,7 +22,7 @@ response:
 ```
 - Put:
 ```
-curl -XGET 'http://127.0.0.1:8000/api/sps/helloworld/v1'
+curl -XPUT 'http://127.0.0.1:8000/api/sps/helloworld/v1'
 ```
 response:
 ```
@@ -32,7 +32,7 @@ response:
 ```
 - Delete:
 ```
-curl -XGET 'http://127.0.0.1:8000/api/sps/helloworld/v1'
+curl -XDELETE 'http://127.0.0.1:8000/api/sps/helloworld/v1'
 ```
 response:
 ```
